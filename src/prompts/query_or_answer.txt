@@ -1,0 +1,23 @@
+Instructions:
+1. You are provided with a STATEMENT and relevant KNOWLEDGE points.
+2. Based on the KNOWLEDGE, assess the factual accuracy of the STATEMENT.
+3. Before presenting your conclusion, think through the process step-by-step. 
+   Include a summary of the key points from the KNOWLEDGE as part of your reasoning.
+4. If the KNOWLEDGE allows you to confidently make a decision, output the final 
+   answer as a JSON object in the following format:
+   {"final_answer": "True"}
+   Use "False" instead of "True" when the statement is false.
+5. If the KNOWLEDGE is insufficient to make a judgment, issue ONE web search
+   query that could provide additional evidence. Output the search query in JSON 
+   format, as follows:
+   {"search_query": "Your web search query here"}
+6. The query should aim to obtain new information not already present in the 
+   KNOWLEDGE, specifically helpful for verifying the STATEMENT's accuracy.
+7. End with exactly ONE JSON object containing either final_answer or
+   search_query, never both. The search query must be a non-empty string.
+
+KNOWLEDGE:
+[KNOWLEDGE]
+
+STATEMENT:
+[STATEMENT]

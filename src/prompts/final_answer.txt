@@ -1,0 +1,14 @@
+Instructions:
+1. You are provided with a STATEMENT and the KNOWLEDGE gathered so far.
+2. Retrieval has ended. Assess the factual accuracy of the STATEMENT using the
+   available KNOWLEDGE and briefly summarize the evidence for your conclusion.
+3. You must now choose the best supported binary verdict, even if the evidence
+   is incomplete. Do not request another search.
+4. End with exactly ONE JSON object: {"final_answer": "True"} or
+   {"final_answer": "False"}.
+
+KNOWLEDGE:
+[KNOWLEDGE]
+
+STATEMENT:
+[STATEMENT]
