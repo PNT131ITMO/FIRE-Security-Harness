@@ -170,3 +170,81 @@ class SerperAPI:
     def _parse_results(self, results: dict[Any, Any]) -> str:
         return ' '.join(self._parse_snippets(results))
 
+class TavilyAPI:
+    def __init__(self, tavily_api_key: str, k: int = 3, timeout: float = 30):
+        shared_config.validate_search_options('tavily', k)
+
+        if (not isinstance(timeout, (int, float)) or isinstance(timeout, bool)
+            or not 0 < timeout < float('inf')):
+            raise ValueError('timeout must be finite and positive.')
+
+        self.tavily_api_key = tavily_api_key
+        self.k = k
+        self.timeout = timeout
+
+    def run(self, query:str, max_retries: int = 3) -> str:
+        if(not isinstance(self.tavily_api_key, str) or not self.tavily_api_key.strip()
+           or self.tavily_api_key.strip().lower().startswith('your_')):
+            raise ValueError('Missing TAVILY_API_KEY. Set it before searching.') 
+        if not isinstance(query, str) or not query.strip():
+            raise ValueError('query must be a non-empty string.')
+
+        results = _post_search_json(
+            _TAVILY_URL,
+            headers={
+                'Authorization': f'Bearer {self.tavily_api_key.strip()}',
+                'Content-Type': 'application/json',
+            }
+            payload={
+                'query': query,
+                'max_results': self.k,
+                'topic': 'general',
+                'search_depth': 'basic',
+                'auto_parameters': False,
+                'include_answer': False,
+                'include_raw_content': False,
+                'include_images': False,  
+            },
+            timeout=self.timeout,
+            max_retries=max_retries,
+            provider='Tavily',
+        )
+        return self._parse_results(results)
+
+    def _parse_results(self, results: dict[str, Any]) -> str:
+        sources = results.get('results')
+
+        if not isinstance(sources, list):
+            raise ValueError('Tavily response must contain a results list.')
+
+        snippets = []
+
+        for source in sources[:self.k]:
+            content = source.get('content') if isinstance(source, dict) else None
+            if isinstance(content, str) and content.strip():
+                snippets.append(content.strip())
+
+        return '\n\n'.join(snippets) if snippets else NO_RESULT_MSG
+
+    def call_search(
+            search_query: str,
+            search_type: str = 'serper',
+            num_searches: int = 3,
+            serper_api_key: str | None = None,
+            search_postamble: str = '',
+            *,
+            tavily_api_key: str | None = None,
+    ) -> str:
+        shared_config.validate_search_options(search_type, num_searches)
+        search_query += f' {search_postamble}' if search_postamble else ''
+
+        if search_type == 'serper':
+            if serper_api_key is None:
+                serper_api_key = shared_config.get_search_api_key(search_type)
+            serper_searcher = SerperAPI(serper_api_key, k=num_searches)
+            return serper_searcher.run(search_query)
+
+        if tavily_api_key is None:
+            tavily_api_key = shared_config.get_search_api_key(search_type)
+
+        return TavilyAPI(tavily_api_key, k=num_searches).run(search_query)       
