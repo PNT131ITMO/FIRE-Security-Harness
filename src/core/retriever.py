@@ -100,5 +100,73 @@ class SerperAPI:
         **kwargs: Any,
     ) -> dict[Any, Any]:
         headers = {
-            
+            'X-API-KEY': self.serper_api_key or '',
+            'Content-Type': 'application/json',
         }
+
+        params = {
+            'q': search_term,
+            **{key: value for key, value in kwargs.item() if value is not None},
+        }
+
+        return _post_search_json(
+            f'{_SERPER_URL}/{search_type}', headers, params,
+            self.timeout, max_retries, 'Serper',
+        )
+
+    def _parse_snippets(self, results: dict[Any, Any]) -> list[str]:
+        snippets = []
+
+        if results.get('answerBox'):
+            answer_box = results.get('answerBox', {})
+            answer = answer_box.get('answer')
+            snippet = answer_box.get('snippet')
+            snippet_highlighted = answer_box.get('snippetHighlighted')
+
+            if answer and isinstance(answer, str):
+                snippets.append(answer)
+
+            if snippet and isinstance(snippet, str):
+                snippets.append(snippet.replace('\n', ' '))
+
+            if snippet_highlighted:
+                if isinstance(snippet_highlighted, str):
+                    snippets.append(snippet_highlighted)
+                elif isinstance(snippet_highlighted, list):
+                    snippets.extend(s for s in snippet_highlighted if isinstance(s, str) and s.strip())
+
+        if results.get('knowledgeGraph'):
+            kg = results.get('knowledgeGraph', {})
+            title = kg.get('title')
+            entity_type = kg.get('type')
+            description = kg.get('description')
+
+            if entity_type:
+                snippets.append(f'{title}: {entity_type}.')
+
+            if isinstance(description, str) and description.strip():
+                snippets.append(description)
+
+            for attribute, value in (kg.get('attribute') or {}).items():
+                snippets.append(f'{title} {attribute}: {value}.')
+
+        result_key = self.result_key_for_type[self.search_type]
+
+        if result_key in results:
+            for result in (results[result_key] or [])[:self.k]:
+                if not isinstance(result, dict):
+                    continue
+                if isinstance(result.get('snippet'), str) and result['snippet'].strip():
+                    snippets.append(result['snippet'])
+
+                for attribute, value in (result.get('attributes') or {}).items():
+                    snippets.append(f'{attribute}: {value}.')
+
+        if not snippets:
+            return [NO_RESULT_MSG]
+
+        return snippets
+
+    def _parse_results(self, results: dict[Any, Any]) -> str:
+        return ' '.join(self._parse_snippets(results))
+
