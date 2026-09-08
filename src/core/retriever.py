@@ -194,7 +194,7 @@ class TavilyAPI:
             headers={
                 'Authorization': f'Bearer {self.tavily_api_key.strip()}',
                 'Content-Type': 'application/json',
-            }
+            },
             payload={
                 'query': query,
                 'max_results': self.k,
