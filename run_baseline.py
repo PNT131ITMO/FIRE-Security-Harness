@@ -1,5 +1,3 @@
-"""Command-line entry point for the FIRE baseline."""
-
 import argparse
 import dataclasses
 import logging
@@ -15,7 +13,6 @@ from src.utils.text_utils import to_readable_json
 
 
 def main() -> None:
-    """Run one claim using the existing baseline YAML configuration."""
     parser = argparse.ArgumentParser(description='FIRE atomic claim verification')
     parser.add_argument('claim', nargs='?',
                         help='One atomic claim to verify; prompts when omitted')
@@ -41,7 +38,6 @@ def main() -> None:
 
     config = load_config(args.config)
     if args.search_provider is not None:
-        # Override in memory only; keep the configuration file unchanged.
         if not isinstance(config.get('search'), dict):
             raise ValueError("Configuration section 'search' must be a mapping.")
         config['search']['type'] = args.search_provider

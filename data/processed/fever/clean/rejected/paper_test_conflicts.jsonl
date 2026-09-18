@@ -1,0 +1,2 @@
+{"claim_id": 139910, "claim": "An island is part of the ABC Islands.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "label_conflict"}
+{"claim_id": 26450, "claim": "An island is part of the ABC Islands.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "label_conflict"}

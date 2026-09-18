@@ -1,0 +1,5 @@
+{"claim_id": 146011, "claim": "Janet Leigh was a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "label_conflict"}
+{"claim_id": 37792, "claim": "Janet Leigh was a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "label_conflict"}
+{"claim_id": 129419, "claim": "Janet Leigh was a person.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "label_conflict"}
+{"claim_id": 54077, "claim": "The Hundred Years' War includes the Civil War.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "label_conflict"}
+{"claim_id": 519, "claim": "The Hundred Years' War includes the Civil War.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "label_conflict"}

@@ -1,0 +1,254 @@
+{"claim_id": 226368, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226342, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226295, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226207, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226372, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226350, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226364, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 226303, "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 77263, "claim": "Ethiopia is a state.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 148997, "claim": "Ethiopia is a state.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 83259, "claim": "Taylor Kitsch only worked on the 2012 film Savages.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 88355, "claim": "Taylor Kitsch only worked on the 2012 film Savages.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 46530, "claim": "Taylor Kitsch only worked on the 2012 film Savages.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182775, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182736, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182725, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182722, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182778, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182729, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182728, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 182762, "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 110561, "claim": "Reuters only sends out news in English.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 144311, "claim": "Reuters only sends out news in English.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 132020, "claim": "Reuters only sends out news in English.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 57733, "claim": "Reuters only sends out news in English.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 63012, "claim": "Reuters only sends out news in English.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 200477, "claim": "Twilight's first novel has a released companion novel called Midnight Sun.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 200500, "claim": "Twilight's first novel has a released companion novel called Midnight Sun.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 200453, "claim": "Meryl Streep is an award losing actress.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 200437, "claim": "Meryl Streep is an award losing actress.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 134005, "claim": "Henry V is an American film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 84676, "claim": "Henry V is an American film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 101411, "claim": "Henry V is an American film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 28426, "claim": "Taipei is the center of Taiwan.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 55056, "claim": "Taipei is the center of Taiwan.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 27171, "claim": "Everton F.C. is not a football club.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 12232, "claim": "Everton F.C. is not a football club.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 114219, "claim": "Keith Urban is married.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 27789, "claim": "Keith Urban is married.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 14646, "claim": "Hugo Weaving is a voice actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 10667, "claim": "Hugo Weaving is a voice actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 35563, "claim": "Hugo Weaving is a voice actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 88713, "claim": "Hugo Weaving is a voice actor.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 109029, "claim": "Hugo Weaving is a voice actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 68230, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 75711, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 51508, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 64529, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 20746, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 5388, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 86408, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 46816, "claim": "Helena Bonham Carter is unable to act in movies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 227403, "claim": "Jun Ji-hyun is in a film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 227399, "claim": "Jun Ji-hyun is in a film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 227375, "claim": "Jun Ji-hyun is in a film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 227392, "claim": "Jun Ji-hyun is in a film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 227388, "claim": "Jun Ji-hyun is in a film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 122626, "claim": "Patty Hearst was kidnapped.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 60409, "claim": "Patty Hearst was kidnapped.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 61218, "claim": "Patty Hearst was kidnapped.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 18721, "claim": "Patty Hearst was kidnapped.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 192872, "claim": "Lindsay Lohan has no clothing lines.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 192889, "claim": "Lindsay Lohan has no clothing lines.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 20238, "claim": "The Fosters is a recorded work.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 24004, "claim": "The Fosters is a recorded work.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 228141, "claim": "Kafka stars an english actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 228166, "claim": "Kafka stars an english actor.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 228167, "claim": "Kafka stars an english actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 228129, "claim": "Kafka stars an english actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 228131, "claim": "Kafka stars an english actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 228176, "claim": "Kafka stars an english actor.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 211309, "claim": "Halle Berry has a child.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 211322, "claim": "Halle Berry has a child.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 211347, "claim": "Halle Berry has a child.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 211346, "claim": "Halle Berry has a child.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 211331, "claim": "Halle Berry has a child.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 56832, "claim": "The West Wing contains no rooms.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 152671, "claim": "The West Wing contains no rooms.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 80618, "claim": "The West Wing contains no rooms.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 150494, "claim": "Estella Warren is a current synchronized swimmer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 132658, "claim": "Estella Warren is a current synchronized swimmer.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 150367, "claim": "Leyton Orient F.C. is in a place.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 23918, "claim": "Leyton Orient F.C. is in a place.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 34566, "claim": "Graciosa, Canary Islands is located 2 km north of El Río.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 112887, "claim": "Graciosa, Canary Islands is located 2 km north of El Río.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 49987, "claim": "Star Wars: The Force Awakens is a book.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 157236, "claim": "Star Wars: The Force Awakens is a book.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 38514, "claim": "Star Wars: The Force Awakens is a book.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 155208, "claim": "The Hermetic Order of the Golden Dawn was devoted to knowledge.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 132829, "claim": "The Hermetic Order of the Golden Dawn was devoted to knowledge.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 156122, "claim": "The Hermetic Order of the Golden Dawn was devoted to knowledge.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 123128, "claim": "The Prestige is an American film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 117502, "claim": "The Prestige is an American film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 150089, "claim": "Giacomo Casanova was a person.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 83645, "claim": "Giacomo Casanova was a person.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 157029, "claim": "Matt Smith's first televised part was in the BBC adaptation of Philip Pullman's The Shadow in the North.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 35144, "claim": "Matt Smith's first televised part was in the BBC adaptation of Philip Pullman's The Shadow in the North.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 42341, "claim": "Grant Gustin is a dancer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 91247, "claim": "Grant Gustin is a dancer.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 36039, "claim": "Grant Gustin is a dancer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 61254, "claim": "Ringo Starr released the album Back Off Boogaloo.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 54362, "claim": "Ringo Starr released the album Back Off Boogaloo.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 73449, "claim": "Rihanna has never sold a record.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 56817, "claim": "Rihanna has never sold a record.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 34492, "claim": "Reuters transmits news in at least one language.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 55749, "claim": "Reuters transmits news in at least one language.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 139733, "claim": "Reuters transmits news in at least one language.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 97397, "claim": "Reuters transmits news in at least one language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 48050, "claim": "Reuters transmits news in at least one language.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 200499, "claim": "The Twilight series's first book was called Midnight Sun.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 200483, "claim": "The Twilight series's first book was called Midnight Sun.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203336, "claim": "Saratoga failed to be produced and so no actors were included.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203354, "claim": "Saratoga failed to be produced and so no actors were included.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203339, "claim": "Saratoga failed to be produced and so no actors were included.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203358, "claim": "Saratoga failed to be produced and so no actors were included.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203363, "claim": "Saratoga failed to be produced and so no actors were included.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203344, "claim": "Saratoga failed to be produced and so no actors were included.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191595, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191625, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191593, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191618, "claim": "Famous in Love failed to star any actors.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191629, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191622, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191601, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191620, "claim": "Famous in Love failed to star any actors.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 103895, "claim": "Before Night Falls is an autobiographical film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 83619, "claim": "Before Night Falls is an autobiographical film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 97412, "claim": "Azerbaijan is a state.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 96343, "claim": "Azerbaijan is a state.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 17169, "claim": "Jing Tian's birthday is May 21.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 148027, "claim": "Jing Tian's birthday is May 21.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 14471, "claim": "Ruth Negga was born in Africa.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 1914, "claim": "Ruth Negga was born in Africa.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 102577, "claim": "Fergie put out a single.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 37854, "claim": "Fergie put out a single.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 12727, "claim": "Gillian Jacobs has only appeared in the film Brother Nature.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 71794, "claim": "Gillian Jacobs has only appeared in the film Brother Nature.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 29381, "claim": "Gillian Jacobs has only appeared in the film Brother Nature.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 89517, "claim": "Gillian Jacobs has only appeared in the film Brother Nature.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 62269, "claim": "Matt Smith's first television role was in the BBC adaptation of Philip Pullman's The Shadow in the North.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 21103, "claim": "Matt Smith's first television role was in the BBC adaptation of Philip Pullman's The Shadow in the North.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 67968, "claim": "Paul Pogba has won zero Coppa Italia titles.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 56598, "claim": "Paul Pogba has won zero Coppa Italia titles.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 149770, "claim": "Qatar is not an island.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 12377, "claim": "Qatar is not an island.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177053, "claim": "Asset management may apply to intangible assets such as human capital.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177037, "claim": "Asset management may apply to intangible assets such as human capital.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177045, "claim": "Asset management may apply to intangible assets such as human capital.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 143525, "claim": "The 1998 NFL Draft was for the 79th irregular season of the NFL.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 98386, "claim": "The 1998 NFL Draft was for the 79th irregular season of the NFL.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 84279, "claim": "Neil Young is not Canadian.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 76198, "claim": "Neil Young is not Canadian.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203947, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203960, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203989, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203931, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203985, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203962, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203964, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203959, "claim": "Laura Linney was in a movie.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 203984, "claim": "Laura Linney was in a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 165513, "claim": "Ileana D'Cruz only starred in Twilight.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 165529, "claim": "Ileana D'Cruz only starred in Twilight.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 165531, "claim": "Ileana D'Cruz only starred in Twilight.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 165509, "claim": "Ileana D'Cruz only starred in Twilight.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 98625, "claim": "A crown colony is also known as something else.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 153294, "claim": "A crown colony is also known as something else.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 81387, "claim": "Mel Brooks is a producer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 80885, "claim": "Mel Brooks is a producer.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191789, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191829, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191823, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191778, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191826, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191828, "claim": "German is a Western Romance Language.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191814, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 191777, "claim": "German is a Western Romance Language.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 195734, "claim": "A Nightmare on Elm Street stars Rooney Mara.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 195741, "claim": "A Nightmare on Elm Street stars Rooney Mara.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 195743, "claim": "A Nightmare on Elm Street stars Rooney Mara.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 195747, "claim": "A Nightmare on Elm Street stars Rooney Mara.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 110279, "claim": "Richmond, Virginia is a neighbor to the Federal Reserve Bank of Richmond.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 43505, "claim": "Richmond, Virginia is a neighbor to the Federal Reserve Bank of Richmond.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 196941, "claim": "Worcester, Massachusetts is 50 mi west of Springfield.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 196925, "claim": "Worcester, Massachusetts is 50 mi west of Springfield.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 12695, "claim": "The Illusionist is a film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 107728, "claim": "The Illusionist is a film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 111935, "claim": "The Illusionist is a film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 79825, "claim": "Quinoa is in the Amaryllidaceae family.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 6823, "claim": "Quinoa is in the Amaryllidaceae family.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 131807, "claim": "Penny Dreadful premiered on May 11, 2014.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 14491, "claim": "Penny Dreadful premiered on May 11, 2014.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 142992, "claim": "Vito Corleone is a father.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 127985, "claim": "Vito Corleone is a father.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 69135, "claim": "The 2013 NBA draft was not held in New York.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 152012, "claim": "The 2013 NBA draft was not held in New York.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 192463, "claim": "Francois de Belleforest translated scientific articles.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 192449, "claim": "Francois de Belleforest translated scientific articles.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 101349, "claim": "The Council on Foreign Relations was founded in 1821.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 53269, "claim": "The Council on Foreign Relations was founded in 1821.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 24411, "claim": "Star Trek is a movie.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 138858, "claim": "Star Trek is a movie.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 117620, "claim": "Tesla Model S is a sports car.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 19366, "claim": "Tesla Model S is a sports car.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 134272, "claim": "Anti-nuclear antibodies has zero subtypes.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 115053, "claim": "Anti-nuclear antibodies has zero subtypes.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 86680, "claim": "Anti-nuclear antibodies has zero subtypes.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 106773, "claim": "Anti-nuclear antibodies has zero subtypes.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 57143, "claim": "Anti-nuclear antibodies has zero subtypes.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 30851, "claim": "Anti-nuclear antibodies has zero subtypes.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177794, "claim": "Labor Pains was released in August in a country.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177813, "claim": "Labor Pains was released in August in a country.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 32365, "claim": "Amsterdam Airport Schiphol serves as a base for Delta Air Lines.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 82484, "claim": "Amsterdam Airport Schiphol serves as a base for Delta Air Lines.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 77674, "claim": "The Academy Honorary Award was instituted.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 83568, "claim": "The Academy Honorary Award was instituted.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 33146, "claim": "The Academy Honorary Award was instituted.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 118539, "claim": "The Academy Honorary Award was instituted.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177808, "claim": "Labor Pains was released on August 4 in the United Kingdom.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 177804, "claim": "Labor Pains was released on August 4 in the United Kingdom.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 192888, "claim": "Lindsay Lohan has no experience as a fashion model.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 192871, "claim": "Lindsay Lohan has no experience as a fashion model.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 150717, "claim": "Keith Urban is a writer.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 44820, "claim": "Keith Urban is a writer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 69762, "claim": "Anne Frank's full last name was Annelies.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 11473, "claim": "Anne Frank's full last name was Annelies.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 97157, "claim": "Willie Nelson joined his first band at sixteen.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 74199, "claim": "Willie Nelson joined his first band at sixteen.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 37069, "claim": "Eragon is a film starring a dragon.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 158384, "claim": "Eragon is a film starring a dragon.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 116157, "claim": "True Detective is a TV show.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 94094, "claim": "True Detective is a TV show.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 79528, "claim": "Natasha Richardson starred in The Handmaid's Tale.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 117594, "claim": "Natasha Richardson starred in The Handmaid's Tale.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 107376, "claim": "The Supernatural pilot was written by David Nutter.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 47408, "claim": "The Supernatural pilot was written by David Nutter.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 113815, "claim": "Unforgettable is written by Stephenie Meyer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 28126, "claim": "Unforgettable is written by Stephenie Meyer.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 187077, "claim": "James Blake (musician) released his first album in 2016.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 187087, "claim": "James Blake (musician) released his first album in 2016.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 155288, "claim": "Willow Smith is not a singer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 101277, "claim": "Willow Smith is not a singer.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 225774, "claim": "Cher has only won awards for film.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 225782, "claim": "Cher has only won awards for film.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 30287, "claim": "Mary-Louise Parker did not receive a Golden Globe.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 23841, "claim": "Mary-Louise Parker did not receive a Golden Globe.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 114508, "claim": "Helike was submerged in 373 AD.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 73501, "claim": "Helike was submerged in 373 AD.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 133649, "claim": "Tokyo Ghoul has the actor Ken Kaneki.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 143724, "claim": "Tokyo Ghoul has the actor Ken Kaneki.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 86839, "claim": "24 is a thriller television show.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 98805, "claim": "24 is a thriller television show.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 189115, "claim": "Svitavy is in Britain.", "fever_label": "REFUTES", "label": "False", "split": "train", "rejection_reason": "label_conflict"}
+{"claim_id": 189088, "claim": "Svitavy is in Britain.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "label_conflict"}

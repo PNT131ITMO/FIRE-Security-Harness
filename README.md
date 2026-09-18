@@ -170,3 +170,7 @@ Reference: [https://arxiv.org/pdf/2302.12173](https://arxiv.org/pdf/2302.12173)
 Reference: [https://arxiv.org/html/2402.06363 ](https://arxiv.org/html/2402.06363)
 
 **Verification Gate**: Это rule-based слой, который проверяет, достаточно ли безопасных evidence для запуска финальной верификации, существуют ли citation IDs, не ссылается ли модель на отфильтрованные документы, и можно ли вообще принимать verdict. Он помогает избежать ситуации, когда система после фильтрации всё равно делает уверенный вывод без достаточной доказательной базы. 
+
+4. Dataset :
+- https://huggingface.co/datasets/fever/fever
+Fact Verification — датасет FEVER

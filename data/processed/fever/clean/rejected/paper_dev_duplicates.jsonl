@@ -1,0 +1,152 @@
+{"claim_id": 219030, "claim": "Savages was exclusively a German film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 204361, "claim": "The Cretaceous ended.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 105095, "claim": "Nicholas Brody is a character on Homeland.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159706, "claim": "Edgar Wright is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159710, "claim": "Edgar Wright is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159714, "claim": "Edgar Wright is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 147411, "claim": "Hot Right Now is mistakenly attributed to DJ Fresh.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 184091, "claim": "Ernest Medina participated in the My Lai Massacre.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 115181, "claim": "Alexandra Daddario is Canadian.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 68189, "claim": "The horse has changed in size as it evolved.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 109073, "claim": "Cheese in the Trap (TV series) only stars animals.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 133707, "claim": "Cheese in the Trap (TV series) only stars animals.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 168975, "claim": "Middle-earth is a real place.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 195085, "claim": "Albert S. Ruddy is born in China.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 166506, "claim": "Jason Katims has made no contributions to Roswell.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 166508, "claim": "Jason Katims has made no contributions to Roswell.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 136862, "claim": "Hush (2016 film) was produced by Trevor Macy through Intrepid Pictures.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 203377, "claim": "Goosebumps (film) was directed by Rob Letterman.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 137531, "claim": "Janet Leigh was a singer.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 149587, "claim": "Hush (2016 film) was produced.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 104729, "claim": "Papua was formerly called by another name.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 33955, "claim": "Wish Upon starred a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 166485, "claim": "Roswell was by Jason Katims.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165245, "claim": "There are no musical or creative works in existence that have been created by Phillip Glass.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165246, "claim": "There are no musical or creative works in existence that have been created by Phillip Glass.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165248, "claim": "There are no musical or creative works in existence that have been created by Phillip Glass.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165266, "claim": "There are no musical or creative works in existence that have been created by Phillip Glass.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165267, "claim": "There are no musical or creative works in existence that have been created by Phillip Glass.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 196743, "claim": "Marnie is a romantic film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 139317, "claim": "Due Date was shot in space.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 215504, "claim": "Weekly Idol is hosted by a rapper.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 208438, "claim": "Excuse My French is an album.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 163987, "claim": "Veeram is a film.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 218367, "claim": "The French Resistance executed zero acts of sabotage.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 132133, "claim": "Paramore is Canadian.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 200290, "claim": "Natural Born Killers was based upon Tarantino's original screenplay without revision.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 200296, "claim": "Natural Born Killers was based upon Tarantino's original screenplay without revision.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 183628, "claim": "Finding Dory was written.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 183629, "claim": "Finding Dory was written.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 37112, "claim": "TakePart is the digital division of Participant Media.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 129932, "claim": "TakePart is the digital division of Participant Media.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185217, "claim": "Home for the Holidays stars no actors or actresses.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 67011, "claim": "Harris Jayaraj is from India.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192971, "claim": "Roland Emmerich is an inactive campaigner.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 67799, "claim": "Exercise temporarily decreases the heart rate.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 143094, "claim": "The Hundred Years' War includes a phase.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 15425, "claim": "Kendall Jenner is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 23736, "claim": "The CONCACAF Champions League is organized.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 85951, "claim": "The CONCACAF Champions League is organized.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 112986, "claim": "Angelsberg is a city.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 66801, "claim": "Cheese in the Trap (TV series) stars Batman.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 120737, "claim": "Cheese in the Trap (TV series) stars Batman.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 225301, "claim": "Michaela Watkins full name is Michaela Ruth Watkins.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 138301, "claim": "Birthday Song (2 Chainz song) was produced by a producer.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 62004, "claim": "Touchscreens are only used in computers.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 203165, "claim": "Polynesian languages include Tahitian, Sāmoan, Tongan, Māori and Hawaiian.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 173501, "claim": "Sancho Panza is a real person.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 45874, "claim": "Paris (Paris Hilton album) incorporates elements of pop.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 116668, "claim": "A Milli is a song by Lil Wayne.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 126474, "claim": "Dilwale Dulhania Le Jayenge was shot in different locations.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 226136, "claim": "Richard Dawkins makes regular radio appearances.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 97008, "claim": "Miranda Otto has yet to begin her acting career.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 83812, "claim": "Same Old Love is a song.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 202472, "claim": "Tinker Tailor Soldier Spy stars an actor.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 86397, "claim": "The Road to El Dorado only stars Ben Stiller.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 114188, "claim": "The Road to El Dorado only stars Ben Stiller.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 141894, "claim": "The Road to El Dorado only stars Ben Stiller.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 112064, "claim": "Queen (band) formed in London in 1970.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 144922, "claim": "Shinji Mikami is a producer.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 79418, "claim": "The Road to El Dorado stars an actor.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 121634, "claim": "The Road to El Dorado stars an actor.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 194764, "claim": "Larry the Cable Guy series finale aired on August 28th, 2013.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 183624, "claim": "Finding Dory was directed.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 183631, "claim": "Finding Dory was directed.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 95652, "claim": "Billboard Dad stars a woman.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 205745, "claim": "First Motion Picture Unit produced films.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 226115, "claim": "Bongwater was a completely original story.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185405, "claim": "CHiPs is exclusively a German film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185429, "claim": "CHiPs is exclusively a German film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 71011, "claim": "AMGTV has programming.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 85122, "claim": "AMGTV has programming.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 227365, "claim": "Giada at Home aired on a TV channel.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 30236, "claim": "Saxony is a German state.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 183589, "claim": "Finding Dory was directed by Ingmar Bergman.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 205738, "claim": "First Motion Picture Unit produced zero films.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 80451, "claim": "Fantastic Four (2005 film) was released on the 8th.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 117061, "claim": "Fantastic Four (2005 film) was released on the 8th.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 202470, "claim": "Tinker Tailor Soldier Spy only stars Adam Sandler.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 63874, "claim": "Janet Leigh was Canadian.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 107384, "claim": "Awkward Black Girl is a television series.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 156106, "claim": "Magic Johnson played basketball.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185413, "claim": "CHiPs is an American romance film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 85315, "claim": "Fist of Legend is an original film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 144964, "claim": "Noel Fisher portrayed a fictional character.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 189449, "claim": "Yandex operates only outside of Kazakhstan.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 122922, "claim": "Part of Dilwale Dulhania Le Jayenge was filmed in France.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 113505, "claim": "The Bahamas is a city.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 226114, "claim": "Bongwater was based on a book.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 130948, "claim": "Bret Easton Ellis wrote a screenplay.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 81703, "claim": "Jack Falahee was born.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 101183, "claim": "Camden, New Jersey is a country.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 135589, "claim": "Men in Black II is a Korean film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 135338, "claim": "Exercise raises resting heart rate in the long term.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 83559, "claim": "PacSun sells products.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 194368, "claim": "Happiness in Slavery is a song.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 194370, "claim": "Happiness in Slavery is a song.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 196752, "claim": "Marnie is a film.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165880, "claim": "Buffy Summers appears in a recorded work.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 84208, "claim": "Edmund H. North was British.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 165873, "claim": "Buffy Summers has been portrayed by an actress.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 93911, "claim": "The CONCACAF Champions League is organized for dead bodies.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 219139, "claim": "Valencia is in America.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159708, "claim": "Edgar Wright is a Gemini.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159722, "claim": "Edgar Wright is a Gemini.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 168987, "claim": "Middle-earth was created by J. K. Rowling.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 222041, "claim": "Brubaker is a 1950 film.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 75960, "claim": "Awkward Black Girl was created by Lena Dunham.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 168066, "claim": "Larry Wilmore is a Gemini.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 106236, "claim": "Edison Machine Works was set up.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 187114, "claim": "Eva Mendes is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 133476, "claim": "L.A. Reid has served as the CEO of Epic Records.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 105702, "claim": "Omar Khadr was convicted.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 117063, "claim": "Derek Hough starred in a work.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 39171, "claim": "Brazzers is based in Canada.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192975, "claim": "Roland Emmerich is a closeted gay.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 65039, "claim": "Sheryl Lee appeared in Café Society.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 155212, "claim": "Taran Killam is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 196759, "claim": "Marnie was created in 2014.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 161865, "claim": "Robert Lopez has won an Award.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 110420, "claim": "Fist of Legend is a remake of Fist of Fury.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 172293, "claim": "The King and I is based on Anna and the King of Siam.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 179751, "claim": "Wentworth Miller made his screenwriting debut.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 179762, "claim": "Wentworth Miller made his screenwriting debut.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 168045, "claim": "Larry Wilmore is Canadian.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 194022, "claim": "Kim Jong-il is designated Eternal Chairman of the National Defence Commission.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 170944, "claim": "Smriti Mandhana has always been unable to play sports.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 100407, "claim": "Reign Over Me is a film.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 75852, "claim": "Youtube is unranked.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 101898, "claim": "Youtube is unranked.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 171631, "claim": "Dave Gibbons was born on April 12.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 184078, "claim": "Kenneth Lonergan is a man.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 203155, "claim": "There are zero Polynesian languages.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 203161, "claim": "There are zero Polynesian languages.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 203181, "claim": "There are zero Polynesian languages.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185423, "claim": "CHiPs is based on nothing.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 137464, "claim": "Yara Shahidi is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 146831, "claim": "Tatum O'Neal got married.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 223346, "claim": "The principal photography of The Disaster Artist (film) is incapable of starting.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 168970, "claim": "Middle-earth was created by a Canadian writer.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 143457, "claim": "Lockhead Martin F-35 Lightning II was an expensive aircraft.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192718, "claim": "The Millers has no cancellation announcements.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 101558, "claim": "NRG Recording Studios was created by Jay Z.", "fever_label": "REFUTES", "label": "False", "split": "paper_dev", "rejection_reason": "duplicate_same_label"}

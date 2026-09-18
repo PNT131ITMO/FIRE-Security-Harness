@@ -1,0 +1,3 @@
+{"claim_id": 57807, "claim": "Floyd Mayweather Jr. is a professional boxer.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "cross_split_leakage"}
+{"claim_id": 142165, "claim": "Saturn is a planet in the Solar System.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "cross_split_leakage"}
+{"claim_id": 216752, "claim": "Warren Beatty co-wrote Reds.", "fever_label": "SUPPORTS", "label": "True", "split": "train", "rejection_reason": "cross_split_leakage"}

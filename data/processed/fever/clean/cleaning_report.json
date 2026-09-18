@@ -1,0 +1,55 @@
+{
+  "cleaning_policy": {
+    "normalization": "NFKC + strip + collapse whitespace + casefold",
+    "same_label_duplicates": "keep lowest claim_id",
+    "label_conflicts": "remove entire group",
+    "cross_split_overlap": "protect paper_dev/paper_test; remove from train"
+  },
+  "processing": {
+    "train": {
+      "split": "train",
+      "input_claims": 109810,
+      "output_claims": 102180,
+      "duplicate_groups": 4688,
+      "removed_duplicate_records": 7376,
+      "conflict_groups": 86,
+      "removed_conflict_records": 254
+    },
+    "paper_dev": {
+      "split": "paper_dev",
+      "input_claims": 6666,
+      "output_claims": 6509,
+      "duplicate_groups": 126,
+      "removed_duplicate_records": 152,
+      "conflict_groups": 2,
+      "removed_conflict_records": 5
+    },
+    "paper_test": {
+      "split": "paper_test",
+      "input_claims": 6666,
+      "output_claims": 6576,
+      "duplicate_groups": 77,
+      "removed_duplicate_records": 88,
+      "conflict_groups": 1,
+      "removed_conflict_records": 2
+    }
+  },
+  "removed_cross_split": 3,
+  "final": {
+    "train": {
+      "claims": 102177,
+      "true": 73865,
+      "false": 28312
+    },
+    "paper_dev": {
+      "claims": 6509,
+      "true": 3251,
+      "false": 3258
+    },
+    "paper_test": {
+      "claims": 6576,
+      "true": 3297,
+      "false": 3279
+    }
+  }
+}

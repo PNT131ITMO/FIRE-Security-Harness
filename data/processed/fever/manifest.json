@@ -1,0 +1,69 @@
+{
+  "dataset": "fever/fever",
+  "revision": "1c55aad95efe327fc6e71a5893d6040d93a8f98c",
+  "source_files": {
+    "train": "v1.0/fever-train.parquet",
+    "paper_dev": "v1.0/fever-paper_dev.parquet",
+    "paper_test": "v1.0/fever-paper_test.parquet"
+  },
+  "label_mapping": {
+    "SUPPORTS": "True",
+    "REFUTES": "False"
+  },
+  "excluded_labels": [
+    "NOT ENOUGH INFO"
+  ],
+  "splits": {
+    "train": {
+      "split": "train",
+      "raw_rows": 311431,
+      "raw_label_counts": {
+        "SUPPORTS": 193756,
+        "REFUTES": 70066,
+        "NOT ENOUGH INFO": 47609
+      },
+      "removed_nei_rows": 47609,
+      "flattened_duplicate_rows": 154012,
+      "binary_unique_claims": 109810,
+      "binary_label_counts": {
+        "True": 80035,
+        "False": 29775
+      },
+      "duplicate_claim_text_groups": 4752
+    },
+    "paper_dev": {
+      "split": "paper_dev",
+      "raw_rows": 18999,
+      "raw_label_counts": {
+        "NOT ENOUGH INFO": 4524,
+        "SUPPORTS": 7343,
+        "REFUTES": 7132
+      },
+      "removed_nei_rows": 4524,
+      "flattened_duplicate_rows": 7809,
+      "binary_unique_claims": 6666,
+      "binary_label_counts": {
+        "True": 3333,
+        "False": 3333
+      },
+      "duplicate_claim_text_groups": 127
+    },
+    "paper_test": {
+      "split": "paper_test",
+      "raw_rows": 18567,
+      "raw_label_counts": {
+        "NOT ENOUGH INFO": 4417,
+        "SUPPORTS": 7265,
+        "REFUTES": 6885
+      },
+      "removed_nei_rows": 4417,
+      "flattened_duplicate_rows": 7484,
+      "binary_unique_claims": 6666,
+      "binary_label_counts": {
+        "True": 3333,
+        "False": 3333
+      },
+      "duplicate_claim_text_groups": 78
+    }
+  }
+}

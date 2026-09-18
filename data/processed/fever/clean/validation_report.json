@@ -1,0 +1,75 @@
+{
+  "splits": {
+    "train": {
+      "labels": {
+        "total": 102177,
+        "true": 73865,
+        "false": 28312,
+        "true_ratio": 0.7229122013760435,
+        "false_ratio": 0.2770877986239565
+      },
+      "duplicates": {
+        "exact_duplicate_groups": 0,
+        "normalized_duplicate_groups": 0,
+        "exact_label_conflicts": 0,
+        "normalized_label_conflicts": 0,
+        "exact_duplicate_examples": [],
+        "exact_conflict_examples": [],
+        "normalized_conflict_examples": []
+      }
+    },
+    "paper_dev": {
+      "labels": {
+        "total": 6509,
+        "true": 3251,
+        "false": 3258,
+        "true_ratio": 0.4994622829927792,
+        "false_ratio": 0.5005377170072207
+      },
+      "duplicates": {
+        "exact_duplicate_groups": 0,
+        "normalized_duplicate_groups": 0,
+        "exact_label_conflicts": 0,
+        "normalized_label_conflicts": 0,
+        "exact_duplicate_examples": [],
+        "exact_conflict_examples": [],
+        "normalized_conflict_examples": []
+      }
+    },
+    "paper_test": {
+      "labels": {
+        "total": 6576,
+        "true": 3297,
+        "false": 3279,
+        "true_ratio": 0.5013686131386861,
+        "false_ratio": 0.49863138686131386
+      },
+      "duplicates": {
+        "exact_duplicate_groups": 0,
+        "normalized_duplicate_groups": 0,
+        "exact_label_conflicts": 0,
+        "normalized_label_conflicts": 0,
+        "exact_duplicate_examples": [],
+        "exact_conflict_examples": [],
+        "normalized_conflict_examples": []
+      }
+    }
+  },
+  "cross_split_overlap": {
+    "train__paper_dev": {
+      "exact_overlap": 0,
+      "normalized_overlap": 0,
+      "exact_examples": []
+    },
+    "train__paper_test": {
+      "exact_overlap": 0,
+      "normalized_overlap": 0,
+      "exact_examples": []
+    },
+    "paper_dev__paper_test": {
+      "exact_overlap": 0,
+      "normalized_overlap": 0,
+      "exact_examples": []
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{"claim_id": 164894, "claim": "Hezbollah received a type of training from Iran.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 94321, "claim": "Adidas designs items.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 152859, "claim": "Proponents of globalism tend to advocate for decreases in immigration.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 86474, "claim": "Benzodiazepine is a medication.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 80650, "claim": "Dopamine prevents neuromodulation.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 42226, "claim": "The Icelandic Coast Guard is responsible for something.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 136045, "claim": "Birmingham is in Suffolk County.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 49869, "claim": "Dopamine induces neuromodulation.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 153998, "claim": "Dopamine induces neuromodulation.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 70702, "claim": "Birmingham is a suburban borough.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 143749, "claim": "The Catcher in the Rye is not a novel.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 152730, "claim": "Food Network is available in the United States.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 164885, "claim": "Hezbollah received zero support from Iran.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 164904, "claim": "Hezbollah received zero support from Iran.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 223219, "claim": "FC Bayern Munich was founded.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 223220, "claim": "FC Bayern Munich was founded.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 193549, "claim": "Bala has no experience directing.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 227116, "claim": "Blank Space is on a list in a country.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 164060, "claim": "The Saturn Award for Best Fantasy Film is presented by the Academy of Motion Picture Arts and Sciences.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 181271, "claim": "Sean Gunn has no experience as an actor.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 171500, "claim": "Jiang Wen is an actor.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159338, "claim": "Weill Cornell Medicine has no history of being related to the field of education.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185188, "claim": "You Only Live Twice was directed by a German man.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 188984, "claim": "William Cohen is from Maine.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 127697, "claim": "The Burj Khalifa contains zero escalators.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 228690, "claim": "Two and a Half Men season is incapable of being aired.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 211015, "claim": "Resident Evil is a film.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 215873, "claim": "Jerome Flynn is exclusively an American.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 112877, "claim": "Michael Hutchence has yet to die.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 131670, "claim": "Michael Hutchence has yet to die.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 142729, "claim": "Arjit Singh is male.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 124087, "claim": "Ayananka Bose is Canadian.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 217391, "claim": "Fiji Hindi is a Western Hindi language.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 146513, "claim": "Team Fortress 2 is incapable of being developed.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192789, "claim": "A staging area is only an unused piece of land.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192792, "claim": "A staging area is only an unused piece of land.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192793, "claim": "A staging area is only an unused piece of land.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192795, "claim": "A staging area is only an unused piece of land.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 194259, "claim": "Coins of the Swiss franc are used in a country.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 113613, "claim": "Times Higher Education World University Rankings comes out weekly.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 213451, "claim": "The Originals (TV series) has yet to air.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 188976, "claim": "William Cohen is from Oregon.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 172328, "claim": "Scream 2 was made in 1854.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 178255, "claim": "Nawaz Sharif has no record in politics.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 94779, "claim": "Petyr Baelish is nicknamed Littlefinger.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 43141, "claim": "The Challenge: Rivals III is a stand-alone production.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 185178, "claim": "You Only Live Twice is the first Bond film directed by James Cameron.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 217023, "claim": "Jab Tak Hai Jaan was praised for its cinematography.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 75594, "claim": "Roberto Orci wrote.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 109737, "claim": "Emilia Clarke is an actress.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 20720, "claim": "Gotham premiered on Fox.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 153372, "claim": "Meghan Markle was born in July.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 61776, "claim": "Ayananka Bose works on books.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 159331, "claim": "Weill Cornell Medicine is a unit.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 202313, "claim": "The New Jersey Turnpike has zero rest areas.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 27657, "claim": "Elizabeth Olsen is a person.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 146030, "claim": "Sabbir Khan directed zero films.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 195149, "claim": "Backing vocalists cannot ever sing.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 140462, "claim": "SpongeBob SquarePants is a series.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 96128, "claim": "Parkinson's disease causes symptoms.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 102986, "claim": "Hannah and Her Sisters is an American tragedy.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 124614, "claim": "The Independent Spirit Awards are held in Santa Monica, California.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 26271, "claim": "Floyd Mayweather Jr. is incapable of boxing.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 107699, "claim": "Floyd Mayweather Jr. is incapable of boxing.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 88082, "claim": "Henry Condell had zero widows.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 171497, "claim": "Jiang Wen is a Chinese cuisine.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 171502, "claim": "Jiang Wen is a Chinese cuisine.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 192790, "claim": "A staging area is a location.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 134314, "claim": "One True Thing is a German film.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 171504, "claim": "Jiang Wen is exclusively American.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 171509, "claim": "Jiang Wen is exclusively American.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 53794, "claim": "The 2003 NCAA Division I Men's Basketball Tournament was played.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 153581, "claim": "The Stanford prison experiment was unfunded.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 97028, "claim": "The SpongeBob SquarePants Movie only stars Donald Trump.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 156222, "claim": "The SpongeBob SquarePants Movie only stars Donald Trump.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 77077, "claim": "Aphrodite is unmarried.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 142558, "claim": "The New England Patriots owns the record for least Super Bowls reached.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 201587, "claim": "A thunderstorm can only be called a thunderstorm.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 169936, "claim": "Japan national football team had second round advancements in 2010.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 66980, "claim": "ASAP Rocky has only directed music videos for himself.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 193554, "claim": "Bala has received zero awards for his work.", "fever_label": "REFUTES", "label": "False", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 206998, "claim": "Punch-Drunk Love was distributed by a film studio.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 112950, "claim": "Georgians arose from a kingdom.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 105301, "claim": "The Stanford prison experiment was funded by an organization.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 78883, "claim": "Georges Gilles de la Tourette described things.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 109564, "claim": "The Independent Spirit Awards are held in California.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 55538, "claim": "Granite is a solid.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}
+{"claim_id": 100615, "claim": "Team Fortress 2 development was led by Robin Walker.", "fever_label": "SUPPORTS", "label": "True", "split": "paper_test", "rejection_reason": "duplicate_same_label"}

@@ -1,0 +1,1214 @@
+{
+  "splits": {
+    "train": {
+      "labels": {
+        "total": 109810,
+        "true": 80035,
+        "false": 29775,
+        "true_ratio": 0.7288498315271833,
+        "false_ratio": 0.2711501684728167
+      },
+      "duplicates": {
+        "exact_duplicate_groups": 4752,
+        "normalized_duplicate_groups": 4774,
+        "exact_label_conflicts": 86,
+        "normalized_label_conflicts": 86,
+        "exact_duplicate_examples": [
+          {
+            "claim": "Roman Atwood is a content creator.",
+            "records": [
+              {
+                "claim_id": 150448,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 112756,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 143939,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "History of art includes architecture, dance, sculpture, music, painting, poetry literature, theatre, narrative, film, photography and graphic arts.",
+            "records": [
+              {
+                "claim_id": 214861,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214890,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214906,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214844,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214897,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214869,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214842,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 214846,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Stranger than Fiction is a film.",
+            "records": [
+              {
+                "claim_id": 207456,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 207461,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 207448,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 207451,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "The Jim Henson Company produced The Muppet Movie, The Dark Crystal, and Labyrinth.",
+            "records": [
+              {
+                "claim_id": 172270,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 172245,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 172249,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "C. S. Forester's first name was Carl.",
+            "records": [
+              {
+                "claim_id": 110847,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 95838,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Kong: Skull Island is a book.",
+            "records": [
+              {
+                "claim_id": 36776,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 146867,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Red Headed Stranger is a movie.",
+            "records": [
+              {
+                "claim_id": 32126,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 71174,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "David Beckham has zero middle names.",
+            "records": [
+              {
+                "claim_id": 170078,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 170086,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Led Zeppelin is a band.",
+            "records": [
+              {
+                "claim_id": 155975,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 210106,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 210105,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "David Harbour is an American.",
+            "records": [
+              {
+                "claim_id": 187282,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 187311,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          }
+        ],
+        "exact_conflict_examples": [
+          {
+            "claim": "Gift of the Night Fury only stars the voices of actors and actresses born in October.",
+            "records": [
+              {
+                "claim_id": 226368,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226342,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226295,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 226207,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226372,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226350,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226364,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226303,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Ethiopia is a state.",
+            "records": [
+              {
+                "claim_id": 77263,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 148997,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Taylor Kitsch only worked on the 2012 film Savages.",
+            "records": [
+              {
+                "claim_id": 83259,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 88355,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 46530,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Pitch Perfect 3 stars Anna Kendrick, Anna Camp, Rebel Wilson, Brittany Snow, Hailee Steinfeld, Alexis Knapp, Ester Dean, Hana Mae Lee, Chrissie Fit, Kelley Jakle.",
+            "records": [
+              {
+                "claim_id": 182775,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 182736,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182725,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182722,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182778,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182729,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182728,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182762,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Reuters only sends out news in English.",
+            "records": [
+              {
+                "claim_id": 110561,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 144311,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 132020,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 57733,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 63012,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Twilight's first novel has a released companion novel called Midnight Sun.",
+            "records": [
+              {
+                "claim_id": 200477,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 200500,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Meryl Streep is an award losing actress.",
+            "records": [
+              {
+                "claim_id": 200453,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 200437,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Henry V is an American film.",
+            "records": [
+              {
+                "claim_id": 134005,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 84676,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 101411,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Taipei is the center of Taiwan.",
+            "records": [
+              {
+                "claim_id": 28426,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 55056,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Everton F.C. is not a football club.",
+            "records": [
+              {
+                "claim_id": 27171,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 12232,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          }
+        ],
+        "normalized_conflict_examples": [
+          {
+            "claim": "gift of the night fury only stars the voices of actors and actresses born in october.",
+            "records": [
+              {
+                "claim_id": 226368,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226342,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226295,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 226207,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226372,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226350,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226364,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 226303,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "ethiopia is a state.",
+            "records": [
+              {
+                "claim_id": 77263,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 148997,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "taylor kitsch only worked on the 2012 film savages.",
+            "records": [
+              {
+                "claim_id": 83259,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 88355,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 46530,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "pitch perfect 3 stars anna kendrick, anna camp, rebel wilson, brittany snow, hailee steinfeld, alexis knapp, ester dean, hana mae lee, chrissie fit, kelley jakle.",
+            "records": [
+              {
+                "claim_id": 182775,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 182736,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182725,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182722,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182778,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182729,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182728,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 182762,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "reuters only sends out news in english.",
+            "records": [
+              {
+                "claim_id": 110561,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 144311,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 132020,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 57733,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 63012,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "twilight's first novel has a released companion novel called midnight sun.",
+            "records": [
+              {
+                "claim_id": 200477,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 200500,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "meryl streep is an award losing actress.",
+            "records": [
+              {
+                "claim_id": 200453,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 200437,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "henry v is an american film.",
+            "records": [
+              {
+                "claim_id": 134005,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 84676,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 101411,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "taipei is the center of taiwan.",
+            "records": [
+              {
+                "claim_id": 28426,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 55056,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "everton f.c. is not a football club.",
+            "records": [
+              {
+                "claim_id": 27171,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 12232,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "paper_dev": {
+      "labels": {
+        "total": 6666,
+        "true": 3333,
+        "false": 3333,
+        "true_ratio": 0.5,
+        "false_ratio": 0.5
+      },
+      "duplicates": {
+        "exact_duplicate_groups": 127,
+        "normalized_duplicate_groups": 128,
+        "exact_label_conflicts": 2,
+        "normalized_label_conflicts": 2,
+        "exact_duplicate_examples": [
+          {
+            "claim": "Savages was exclusively a German film.",
+            "records": [
+              {
+                "claim_id": 219028,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 219030,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "The Cretaceous ended.",
+            "records": [
+              {
+                "claim_id": 204361,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 204352,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Nicholas Brody is a character on Homeland.",
+            "records": [
+              {
+                "claim_id": 105095,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 92150,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Edgar Wright is a person.",
+            "records": [
+              {
+                "claim_id": 159706,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 159700,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 159710,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 159714,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Hot Right Now is mistakenly attributed to DJ Fresh.",
+            "records": [
+              {
+                "claim_id": 147411,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 29353,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Ernest Medina participated in the My Lai Massacre.",
+            "records": [
+              {
+                "claim_id": 184083,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 184091,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Alexandra Daddario is Canadian.",
+            "records": [
+              {
+                "claim_id": 108950,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 115181,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "The horse has changed in size as it evolved.",
+            "records": [
+              {
+                "claim_id": 42188,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 68189,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Cheese in the Trap (TV series) only stars animals.",
+            "records": [
+              {
+                "claim_id": 93448,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 109073,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 133707,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Middle-earth is a real place.",
+            "records": [
+              {
+                "claim_id": 168975,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 168961,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          }
+        ],
+        "exact_conflict_examples": [
+          {
+            "claim": "Janet Leigh was a person.",
+            "records": [
+              {
+                "claim_id": 146011,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 37792,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 129419,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "The Hundred Years' War includes the Civil War.",
+            "records": [
+              {
+                "claim_id": 54077,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 519,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          }
+        ],
+        "normalized_conflict_examples": [
+          {
+            "claim": "janet leigh was a person.",
+            "records": [
+              {
+                "claim_id": 146011,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 37792,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 129419,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "the hundred years' war includes the civil war.",
+            "records": [
+              {
+                "claim_id": 54077,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 519,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "paper_test": {
+      "labels": {
+        "total": 6666,
+        "true": 3333,
+        "false": 3333,
+        "true_ratio": 0.5,
+        "false_ratio": 0.5
+      },
+      "duplicates": {
+        "exact_duplicate_groups": 78,
+        "normalized_duplicate_groups": 78,
+        "exact_label_conflicts": 1,
+        "normalized_label_conflicts": 1,
+        "exact_duplicate_examples": [
+          {
+            "claim": "Hezbollah received a type of training from Iran.",
+            "records": [
+              {
+                "claim_id": 164883,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 164894,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Adidas designs items.",
+            "records": [
+              {
+                "claim_id": 85923,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 94321,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Proponents of globalism tend to advocate for decreases in immigration.",
+            "records": [
+              {
+                "claim_id": 96401,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 152859,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Benzodiazepine is a medication.",
+            "records": [
+              {
+                "claim_id": 11145,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 86474,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Dopamine prevents neuromodulation.",
+            "records": [
+              {
+                "claim_id": 80650,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 2531,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "The Icelandic Coast Guard is responsible for something.",
+            "records": [
+              {
+                "claim_id": 6650,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 42226,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Birmingham is in Suffolk County.",
+            "records": [
+              {
+                "claim_id": 136045,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 33605,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "Dopamine induces neuromodulation.",
+            "records": [
+              {
+                "claim_id": 49869,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 153998,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 2530,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              }
+            ]
+          },
+          {
+            "claim": "Birmingham is a suburban borough.",
+            "records": [
+              {
+                "claim_id": 53795,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 70702,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          },
+          {
+            "claim": "The Catcher in the Rye is not a novel.",
+            "records": [
+              {
+                "claim_id": 34385,
+                "label": "False",
+                "fever_label": "REFUTES"
+              },
+              {
+                "claim_id": 143749,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          }
+        ],
+        "exact_conflict_examples": [
+          {
+            "claim": "An island is part of the ABC Islands.",
+            "records": [
+              {
+                "claim_id": 139910,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 26450,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          }
+        ],
+        "normalized_conflict_examples": [
+          {
+            "claim": "an island is part of the abc islands.",
+            "records": [
+              {
+                "claim_id": 139910,
+                "label": "True",
+                "fever_label": "SUPPORTS"
+              },
+              {
+                "claim_id": 26450,
+                "label": "False",
+                "fever_label": "REFUTES"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "cross_split_overlap": {
+    "train__paper_dev": {
+      "exact_overlap": 1,
+      "normalized_overlap": 1,
+      "exact_examples": [
+        {
+          "claim": "Saturn is a planet in the Solar System.",
+          "train": {
+            "claim_id": 142165,
+            "label": "True"
+          },
+          "paper_dev": {
+            "claim_id": 198218,
+            "label": "True"
+          }
+        }
+      ]
+    },
+    "train__paper_test": {
+      "exact_overlap": 2,
+      "normalized_overlap": 2,
+      "exact_examples": [
+        {
+          "claim": "Warren Beatty co-wrote Reds.",
+          "train": {
+            "claim_id": 216752,
+            "label": "True"
+          },
+          "paper_test": {
+            "claim_id": 154383,
+            "label": "True"
+          }
+        },
+        {
+          "claim": "Floyd Mayweather Jr. is a professional boxer.",
+          "train": {
+            "claim_id": 57807,
+            "label": "True"
+          },
+          "paper_test": {
+            "claim_id": 36399,
+            "label": "True"
+          }
+        }
+      ]
+    },
+    "paper_dev__paper_test": {
+      "exact_overlap": 0,
+      "normalized_overlap": 0,
+      "exact_examples": []
+    }
+  }
+}
