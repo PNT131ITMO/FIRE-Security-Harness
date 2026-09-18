@@ -76,7 +76,8 @@ def verify_atomic_claim(
 
                 decision, _ = decision_module.final_answer_or_next_search(
                     atomic_claim=atomic_claim,
-                    past_searches=past_searches,
+                    past_searches=searches,
+                    diverse_prompt=diverse_prompt,
                     model=tracked_model,
                     tolerance=tolerance,
                     search_type=search_type,

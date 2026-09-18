@@ -1,0 +1,16 @@
+model:
+  name: agnes:agnes-2.5-flash
+  temperature: 0.5
+  max_tokens: 2048
+  request_timeout: 60
+  max_api_retries: 2
+
+search:
+  type: serper
+  num_searches: 3
+
+fire:
+  max_steps: 5
+  max_retries: 10
+  max_tolerance: 2
+  diverse_prompt: false

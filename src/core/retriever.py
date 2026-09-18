@@ -4,12 +4,10 @@ from typing import Any, Optional, Literal
 import requests
 
 from src.utils import shared_config
-from src.utils.telemetry import increment
-from src.core.documents import EvidenceDocument
 
 _SERPER_URL = 'https://google.serper.dev'
 _TAVILY_URL = 'https://api.tavily.com/search'
-NO_RESULT_MSG = 'No good web search result was found'
+NO_RESULT_MSG = 'No good Google Search result was found'
 
 def _post_search_json(
         url: str,
@@ -106,7 +104,7 @@ class SerperAPI:
 
         params = {
             'q': search_term,
-            **{key: value for key, value in kwargs.item() if value is not None},
+            **{key: value for key, value in kwargs.items() if value is not None},
         }
 
         return _post_search_json(
@@ -147,7 +145,7 @@ class SerperAPI:
             if isinstance(description, str) and description.strip():
                 snippets.append(description)
 
-            for attribute, value in (kg.get('attribute') or {}).items():
+            for attribute, value in (kg.get('attributes') or {}).items():
                 snippets.append(f'{title} {attribute}: {value}.')
 
         result_key = self.result_key_for_type[self.search_type]
@@ -226,25 +224,25 @@ class TavilyAPI:
 
         return '\n\n'.join(snippets) if snippets else NO_RESULT_MSG
 
-    def call_search(
-            search_query: str,
-            search_type: str = 'serper',
-            num_searches: int = 3,
-            serper_api_key: str | None = None,
-            search_postamble: str = '',
-            *,
-            tavily_api_key: str | None = None,
-    ) -> str:
-        shared_config.validate_search_options(search_type, num_searches)
-        search_query += f' {search_postamble}' if search_postamble else ''
+def call_search(
+        search_query: str,
+        search_type: str = 'serper',
+        num_searches: int = 3,
+        serper_api_key: str | None = None,
+        search_postamble: str = '',
+        *,
+        tavily_api_key: str | None = None,
+) -> str:
+    shared_config.validate_search_options(search_type, num_searches)
+    search_query += f' {search_postamble}' if search_postamble else ''
 
-        if search_type == 'serper':
-            if serper_api_key is None:
-                serper_api_key = shared_config.get_search_api_key(search_type)
-            serper_searcher = SerperAPI(serper_api_key, k=num_searches)
-            return serper_searcher.run(search_query)
+    if search_type == 'serper':
+        if serper_api_key is None:
+            serper_api_key = shared_config.get_search_api_key(search_type)
+        serper_searcher = SerperAPI(serper_api_key, k=num_searches)
+        return serper_searcher.run(search_query)
 
-        if tavily_api_key is None:
-            tavily_api_key = shared_config.get_search_api_key(search_type)
+    if tavily_api_key is None:
+        tavily_api_key = shared_config.get_search_api_key(search_type)
 
-        return TavilyAPI(tavily_api_key, k=num_searches).run(search_query)       
+    return TavilyAPI(tavily_api_key, k=num_searches).run(search_query)

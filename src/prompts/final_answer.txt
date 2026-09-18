@@ -1,11 +1,13 @@
 Instructions:
-1. You are provided with a STATEMENT and the KNOWLEDGE gathered so far.
-2. Retrieval has ended. Assess the factual accuracy of the STATEMENT using the
-   available KNOWLEDGE and briefly summarize the evidence for your conclusion.
-3. You must now choose the best supported binary verdict, even if the evidence
-   is incomplete. Do not request another search.
-4. End with exactly ONE JSON object: {"final_answer": "True"} or
-   {"final_answer": "False"}.
+1. You are provided with a STATEMENT and relevant KNOWLEDGE points.
+2. Based on the KNOWLEDGE, assess the factual accuracy of the STATEMENT.
+3. Before presenting your final answer, think step-by-step and show your reasoning. 
+   Include a summary of the key points from the KNOWLEDGE as part of your reasoning.
+4. Your final answer should be either "True" or "False".
+5. Format your final answer as a JSON object in the following structure:
+   {
+     "final_answer": "True" or "False"
+   }
 
 KNOWLEDGE:
 [KNOWLEDGE]

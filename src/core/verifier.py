@@ -16,7 +16,7 @@ def must_get_final_answer(
 ) -> tuple[FinalAnswer | None, dict | None]:
     full_prompt = query_generator.build_final_answer_prompt(
         atomic_claim=atomic_fact,
-        knowledge=evidence_manager.build_knowledge(searches),
+        knowledge='\n'.join(search.result for search in searches),
     )
 
     model_response, usage = model.generate(full_prompt)

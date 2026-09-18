@@ -20,10 +20,10 @@ def build_final_answer_prompt(atomic_claim: str, knowledge: str) -> str:
 def _build_prompt(file_name: str, atomic_claim: str, knowledge: str) -> str:
     values = {
         _STATEMENT_PLACEHOLDER: atomic_claim,
-        _KNOWLEDGE_PLACEHOLDER: atomic_claim,
+        _KNOWLEDGE_PLACEHOLDER: knowledge,
     }
     prompt = re.sub(
-        r'\[STATEMENT\]\[KNOWLEDGE\]',
+        r'\[STATEMENT\]|\[KNOWLEDGE\]',
         lambda match: values[match.group()],
         _read_prompt(file_name),
     )

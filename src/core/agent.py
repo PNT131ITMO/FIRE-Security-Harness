@@ -51,7 +51,7 @@ class Model:
         if self.organization not in loaders:
             raise ValueError(f'Unsupported organization: {self.organization}')
 
-        return loaders[self.organization]
+        return loaders[self.organization]()
     
     def _load_openai_model(self):
         api_key = shared_config.get_api_key('OPENAI_API_KEY')
@@ -103,10 +103,10 @@ class Model:
         )
     
     def _load_groq_model(self):
-        return self._load_compatible_model('GROQ_API_KEY', GROQ_API_KEY)
+        return self._load_compatible_model('GROQ_API_KEY', GROQ_API_BASE)
     
     def _load_agnes_model(self):
-        return self._load_compatible_model('AGNES_API_KEY', AGNES_API_KEY)
+        return self._load_compatible_model('AGNES_API_KEY', AGNES_API_BASE)
     
     def _load_compatible_model(self, env_var_name: str, base_url: str):
         api_key = shared_config.get_api_key(env_var_name)
@@ -154,7 +154,7 @@ class Model:
         if not isinstance(content, str):
             content = ''
         
-        usage = getattr(response, 'response_metadata', {}) or {}
+        usage = getattr(response, 'usage_metadata', None)
 
         if usage is None:
             metadata = getattr(response, 'response_metadata', {}) or {}

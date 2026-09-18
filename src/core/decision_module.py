@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typings import TYPE_CHECKING
+from typing import TYPE_CHECKING
 import logging
 
 from src.core.types import GoogleSearchResult, FinalAnswer
@@ -39,41 +39,19 @@ def final_answer_or_next_search(
     search_history = evidence_manager.get_search_history(past_searches)
 
     if diverse_prompt:
-        warning_window = max(2, tolerance - 1)
         if len(query_history) >= 2:
-            full_prompt += (
-                "\n\nPlease pay attention to optimize the query to make it more "
-                "diverse and the retrieved knowledge is as different as possible."
-            )
-        
-        if (
-            len(search_history) >= warning_window
-            and get_sentence_similarity(
-                search_history[-1],
-                search_history[-warning_window: -1],
-                threshold=0.9,
-            ) >= warning_window - 1
-        ):
-            full_prompt += (
-                "\n\nPlease note! We have detected multiple very similar contents "
-                "in the Knowledge section. Please optimize your query so that "
-                "the retrieved knowledge is as different as possible."
-            )
-        
-        if (
-            len(query_history) >= warning_window
-            and get_sentence_similarity(
-                query_history[-1],
-                query_history[-warning_window: -1],
-                threshold=0.9,
-            ) >= warning_window - 1
-        ):
-            full_prompt += (
-                "\nPlease note that we have detected very similar content many "
-                "times in the past query history. Please pay attention to "
-                "optimize the query to make it more diverse."
-            )
-    
+            full_prompt += "Please pay attention to optimizing the query to make it more diverse and the retrieved knowledge is as different as possible."
+
+        if len(search_history) >= tolerance - 1 and get_sentence_similarity(search_history[-1],
+                                                                            search_history[-(tolerance - 1):-1],
+                                                                            threshold=0.9) >= tolerance - 2:
+            full_prompt += "\n\nPlease note! We have detected multiple very similar contents in the Knowledge section. Please optimize your query so that the retrieved knowledge is as different as possible."
+
+        if len(query_history) >= tolerance - 1 and get_sentence_similarity(query_history[-1],
+                                                                           query_history[-(tolerance - 1):-1],
+                                                                           threshold=0.9) >= tolerance - 2:
+            full_prompt += "\nPlease note that we have detected very similar content many times in the past query history. Please pay attention to optimizing the query to make it more diverse."
+
     model_response, usage = model.generate(full_prompt)
 
     answer_or_next_query = text_utils.extract_json_from_output(model_response)
@@ -95,7 +73,7 @@ def final_answer_or_next_search(
             LOGGER.info('Invalid model output: final_answer must be True or False.')
             return None, usage
         
-        LOGGER.info('Decision: final_usage = %s', answer)
+        LOGGER.info('Decision: final_answer = %s', answer)
         
         return FinalAnswer(
             response=model_response,
@@ -125,6 +103,17 @@ def final_answer_or_next_search(
             ) >= tolerance - 1
         ):
             LOGGER.info('Early stop: the proposed query repeats recent queries.')
+            return '_Early_Stop', usage
+
+        if (
+            len(search_history) >= tolerance
+            and get_sentence_similarity(
+                search_history[-1],
+                search_history[-tolerance:-1],
+                threshold=0.9,
+            ) >= tolerance - 1
+        ):
+            LOGGER.info('Early stop: recent searches return repeated evidence.')
             return '_Early_Stop', usage
 
         LOGGER.info('Searching %s (up to %s results)...', search_type.capitalize(), num_searches)
