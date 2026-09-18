@@ -10,3 +10,10 @@ venv*/
 !.env.example
 data/results/*
 !data/results/.gitkeep
+
+data/raw/
+data/processed/
+data/injected/
+data/results/
+
+!data/README.md
