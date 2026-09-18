@@ -1,0 +1,23 @@
+{
+  "train": {
+    "claims": 102177,
+    "evidence_sets": 202260,
+    "evidence_sentences": 240405,
+    "claims_with_multiple_sets": 28036,
+    "multi_sentence_sets": 31110
+  },
+  "paper_dev": {
+    "claims": 6509,
+    "evidence_sets": 12128,
+    "evidence_sentences": 14108,
+    "claims_with_multiple_sets": 1783,
+    "multi_sentence_sets": 1545
+  },
+  "paper_test": {
+    "claims": 6576,
+    "evidence_sets": 12075,
+    "evidence_sentences": 13931,
+    "claims_with_multiple_sets": 1782,
+    "multi_sentence_sets": 1463
+  }
+}
