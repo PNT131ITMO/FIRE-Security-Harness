@@ -6,6 +6,7 @@ import json
 import os
 import zipfile
 import re
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -21,6 +22,22 @@ WIKI_URL = (
     "https://fever.ai/download/fever/"
     "wiki-pages.zip"
 )
+
+
+def normalize_page_id(page_id: str) -> str:
+    """Return the canonical key used to match FEVER Wikipedia pages.
+
+    Original FEVER annotations sometimes use decomposed Unicode characters
+    (for example, ``e`` followed by a combining acute accent), while the
+    Wikipedia dump stores the equivalent precomposed character.  NFC makes
+    those canonically equivalent identifiers compare equal without changing
+    case or applying any semantic title normalization.
+    """
+
+    return unicodedata.normalize(
+        "NFC",
+        page_id,
+    )
 
 def load_jsonl(path: Path) -> list[dict]:
     records = []
@@ -301,9 +318,24 @@ def resolve_references(
 
     resolved = {}
 
+    required_by_normalized_page = defaultdict(dict)
+
+    for original_page, sentence_ids \
+            in required.items():
+
+        normalized_page = normalize_page_id(
+            original_page
+        )
+
+        required_by_normalized_page[
+            normalized_page
+        ][original_page] = sentence_ids
+
     missing_pages = set(
         required.keys()
     )
+
+    matched_archive_pages = {}
 
     total_required_sentences = sum(
         len(ids)
@@ -373,12 +405,53 @@ def resolve_references(
                         "id"
                     )
 
-                    if page_id not in required:
+                    if not isinstance(
+                        page_id,
+                        str,
+                    ):
                         continue
 
-                    wanted_ids = required[
-                        page_id
-                    ]
+                    normalized_page_id = (
+                        normalize_page_id(
+                            page_id
+                        )
+                    )
+
+                    requested_pages = (
+                        required_by_normalized_page.get(
+                            normalized_page_id
+                        )
+                    )
+
+                    if not requested_pages:
+                        continue
+
+                    previous_archive_page = (
+                        matched_archive_pages.get(
+                            normalized_page_id
+                        )
+                    )
+
+                    if (
+                        previous_archive_page is not None
+                        and previous_archive_page != page_id
+                    ):
+                        raise ValueError(
+                            "Unicode-normalized Wikipedia "
+                            "page collision: "
+                            f"{previous_archive_page!r} and "
+                            f"{page_id!r} both normalize to "
+                            f"{normalized_page_id!r}."
+                        )
+
+                    matched_archive_pages[
+                        normalized_page_id
+                    ] = page_id
+
+                    wanted_ids = set().union(
+                        *requested_pages.values()
+                    )
+
                     sentences = extract_sentences(
                         page.get(
                             "lines",
@@ -387,17 +460,38 @@ def resolve_references(
                         wanted_ids,
                     )
 
-                    resolved[
-                        page_id
-                    ] = sentences
+                    for original_page, original_ids \
+                            in requested_pages.items():
 
-                    resolved_sentence_count += (
-                        len(sentences)
-                    )
+                        page_sentences = {
+                            sentence_id: text
+                            for sentence_id, text
+                            in sentences.items()
+                            if sentence_id in original_ids
+                        }
 
-                    missing_pages.discard(
-                        page_id
-                    )
+                        existing_sentences = resolved.get(
+                            original_page
+                        )
+
+                        if existing_sentences is None:
+                            resolved[
+                                original_page
+                            ] = page_sentences
+
+                            resolved_sentence_count += (
+                                len(page_sentences)
+                            )
+
+                        elif existing_sentences != page_sentences:
+                            raise ValueError(
+                                "Conflicting resolutions for "
+                                f"FEVER page {original_page!r}."
+                            )
+
+                        missing_pages.discard(
+                            original_page
+                        )
 
             if not missing_pages:
                 break

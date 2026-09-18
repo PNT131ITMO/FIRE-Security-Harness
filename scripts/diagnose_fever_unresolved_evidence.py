@@ -4,6 +4,7 @@ import argparse
 import io
 import json
 import re
+import unicodedata
 import zipfile
 from collections import defaultdict, Counter
 from pathlib import Path
@@ -14,6 +15,14 @@ SPLITS = (
     "paper_dev",
     "paper_test",
 )
+
+
+def normalize_page_id(page_id: str) -> str:
+
+    return unicodedata.normalize(
+        "NFC",
+        page_id,
+    )
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -106,6 +115,29 @@ def inspect_wiki(
 
     page_sentence_ids = {}
 
+    if not target_pages:
+
+        print(
+            "\nNo unresolved target pages "
+            "to inspect."
+        )
+
+        return page_sentence_ids
+
+    targets_by_normalized_page = defaultdict(set)
+
+    for target_page in target_pages:
+
+        targets_by_normalized_page[
+            normalize_page_id(
+                target_page
+            )
+        ].add(
+            target_page
+        )
+
+    matched_archive_pages = {}
+
     print(
         "\nScanning target pages "
         "inside wiki dump..."
@@ -163,17 +195,61 @@ def inspect_wiki(
                         "id"
                     )
 
-                    if page_id not in target_pages:
+                    if not isinstance(
+                        page_id,
+                        str,
+                    ):
                         continue
 
-                    page_sentence_ids[
-                        page_id
-                    ] = extract_sentence_ids(
+                    normalized_page_id = (
+                        normalize_page_id(
+                            page_id
+                        )
+                    )
+
+                    matching_targets = (
+                        targets_by_normalized_page.get(
+                            normalized_page_id
+                        )
+                    )
+
+                    if not matching_targets:
+                        continue
+
+                    previous_archive_page = (
+                        matched_archive_pages.get(
+                            normalized_page_id
+                        )
+                    )
+
+                    if (
+                        previous_archive_page is not None
+                        and previous_archive_page != page_id
+                    ):
+                        raise ValueError(
+                            "Unicode-normalized Wikipedia "
+                            "page collision: "
+                            f"{previous_archive_page!r} and "
+                            f"{page_id!r} both normalize to "
+                            f"{normalized_page_id!r}."
+                        )
+
+                    matched_archive_pages[
+                        normalized_page_id
+                    ] = page_id
+
+                    sentence_ids = extract_sentence_ids(
                         page.get(
                             "lines",
                             "",
                         )
                     )
+
+                    for target_page in matching_targets:
+
+                        page_sentence_ids[
+                            target_page
+                        ] = sentence_ids
 
     print()
 

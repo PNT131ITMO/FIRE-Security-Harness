@@ -18,11 +18,6 @@ LABEL_MAP = {
     "REFUTES": "False",
 }
 
-
-# ============================================================
-# JSONL helpers
-# ============================================================
-
 def load_jsonl(path: Path) -> list[dict]:
 
     records = []
@@ -56,12 +51,6 @@ def load_jsonl(path: Path) -> list[dict]:
 
     return records
 
-
-# ============================================================
-# Claim normalization
-# only for duplicate/leakage analysis
-# ============================================================
-
 def normalize_claim(text: str) -> str:
 
     text = unicodedata.normalize(
@@ -75,11 +64,6 @@ def normalize_claim(text: str) -> str:
 
     return text.casefold()
 
-
-# ============================================================
-# Validate one split
-# ============================================================
-
 def validate_split(
     split_name: str,
     gold_records: list[dict],
@@ -90,10 +74,6 @@ def validate_split(
     errors = []
 
     warnings = []
-
-    # --------------------------------------------------------
-    # Step 1 reference dataset
-    # --------------------------------------------------------
 
     clean_by_id = {
         int(record["claim_id"]): record
@@ -115,10 +95,6 @@ def validate_split(
     true_count = 0
 
     false_count = 0
-
-    # ========================================================
-    # Validate every Gold Evidence claim
-    # ========================================================
 
     for record_index, record in enumerate(
         gold_records
@@ -174,10 +150,6 @@ def validate_split(
             "fever_label"
         ]
 
-        # ----------------------------------------------------
-        # Duplicate claim ID
-        # ----------------------------------------------------
-
         if claim_id in gold_by_id:
 
             errors.append(
@@ -194,10 +166,6 @@ def validate_split(
             claim_id
         ] = record
 
-        # ----------------------------------------------------
-        # Split field
-        # ----------------------------------------------------
-
         if record["split"] != split_name:
 
             errors.append(
@@ -212,10 +180,6 @@ def validate_split(
                         record["split"],
                 }
             )
-
-        # ----------------------------------------------------
-        # Label validation
-        # ----------------------------------------------------
 
         if label not in {
             "True",
@@ -281,10 +245,6 @@ def validate_split(
 
         elif label == "False":
             false_count += 1
-
-        # ----------------------------------------------------
-        # Must still exist in Clean Binary FEVER
-        # ----------------------------------------------------
 
         if claim_id not in clean_by_id:
 
