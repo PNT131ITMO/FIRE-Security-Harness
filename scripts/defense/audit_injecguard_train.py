@@ -9,18 +9,15 @@ from pathlib import Path
 
 import requests
 
-
 TRAIN_URL = (
     "https://raw.githubusercontent.com/"
     "leolee99/PIGuard/main/datasets/train.json"
 )
 
-
 def download_file(
     url: str,
     destination: Path,
 ) -> None:
-
     if destination.exists():
         print(f"Already exists: {destination}")
         return
@@ -45,9 +42,7 @@ def download_file(
 
     print(f"Saved: {destination}")
 
-
 def normalize_text(text: str) -> str:
-
     text = unicodedata.normalize(
         "NFKC",
         text,
@@ -59,25 +54,19 @@ def normalize_text(text: str) -> str:
 
     return text.casefold()
 
-
 def sha256_text(text: str) -> str:
-
     return hashlib.sha256(
         text.encode("utf-8")
     ).hexdigest()
 
-
 def load_json(path: Path):
-
     with path.open(
         "r",
         encoding="utf-8",
     ) as file:
-
         data = json.load(file)
 
     if not isinstance(data, list):
-
         raise ValueError(
             "Expected train.json "
             "to contain a JSON list."
@@ -85,12 +74,10 @@ def load_json(path: Path):
 
     return data
 
-
 def write_jsonl(
     records: list[dict],
     path: Path,
 ) -> None:
-
     path.parent.mkdir(
         parents=True,
         exist_ok=True,
@@ -100,9 +87,7 @@ def write_jsonl(
         "w",
         encoding="utf-8",
     ) as file:
-
         for record in records:
-
             file.write(
                 json.dumps(
                     record,
@@ -110,7 +95,6 @@ def write_jsonl(
                 )
                 + "\n"
             )
-
 
 def audit(records: list[dict]):
 
@@ -128,7 +112,6 @@ def audit(records: list[dict]):
     for index, record in enumerate(records):
 
         if not isinstance(record, dict):
-
             missing_fields.append(
                 {
                     "index": index,
@@ -585,7 +568,6 @@ def main() -> None:
         "\nReport:",
         report_path,
     )
-
 
 if __name__ == "__main__":
     main()
